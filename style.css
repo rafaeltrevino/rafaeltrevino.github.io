@@ -1,0 +1,72 @@
+body {
+    background-color: whitesmoke;
+    font-family: sans-serif
+    margin: 50px auto;
+    padding: 20%;
+}
+h1 {
+    color: black;
+    font-family: Georgia;
+    font-style: italic;
+    font-size: 40px;
+    text-align: left;
+}
+
+p {
+    line-height: 22 px;
+}
+ul {
+    line-height: 25px;
+}
+
+#about {
+    font-family: 'Arial Narrow';
+    text-align: left;
+}
+#contact {
+    font-family: Cambria;
+    text-align: left;
+    font-family: serif;
+    border-top: 1px solid black;
+}
+
+.red {
+    color: red;
+}
+.blue {
+    color: blue;
+}
+.green {
+    color: green;
+}
+
+.typewriter {
+    text-align: justify;
+    font-family: Georgia;
+}
+
+.photo {
+    border-style: solid;
+    border-color: white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+h1:hover {
+    font-style: normal;
+}
+
+p:hover {
+    font-style: italic;
+}
+
+a:hover {
+    font-size: 20px;
+}
+
+img:hover {
+    border-color: black;
+    transform: scale(1.1);
+}
