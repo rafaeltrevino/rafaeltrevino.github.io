@@ -2,7 +2,8 @@ body {
     background-color: whitesmoke;
     font-family: sans-serif
     margin: 50px auto;
-    padding: 20%;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 h1 {
     color: black;
