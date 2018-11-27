@@ -1,9 +1,9 @@
 body {
     background-color: whitesmoke;
-    font-family: sans-serif
-    margin: 50px auto;
-    padding-left: 15%;
-    padding-right: 15%;
+    font-family: sans-serif;
+    /* Background image by Rafael de Nadai */
+    background-image: url(./assets/background.jpg);
+    background-size: cover;
 }
 h1 {
     color: black;
@@ -31,16 +31,6 @@ ul {
     border-top: 1px solid black;
 }
 
-.red {
-    color: red;
-}
-.blue {
-    color: blue;
-}
-.green {
-    color: green;
-}
-
 .typewriter {
     text-align: justify;
     font-family: Georgia;
@@ -53,6 +43,11 @@ ul {
     margin-left: auto;
     margin-right: auto;
     width: 30%;
+}
+
+.icon {
+    height: 50px;
+    width: 50px;
 }
 
 h1:hover {
