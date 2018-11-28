@@ -9,8 +9,33 @@ body {
     background-image: url("./assets/images/background.jpg");
     background-size: cover;
 }
+
+header {
+    position: fixed;
+    margin-top: 0px;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.2);
+}
+
+footer {
+    height: 100px;
+    text-align: center;
+    background-color: lightgray;
+    color: white;
+    padding: 10px;
+}
+
+.push {
+    height: 100px;
+}
+
+main {
+    min-height: 100%;
+    margin-bottom: -100px;
+}
+
 h1 {
-    color: black;
+    color: white;
     font-family: Georgia;
     font-style: italic;
     font-size: 40px;
@@ -45,16 +70,23 @@ ul {
     margin: 0px auto;
 }
 
+.scroll {
+    scroll-behavior: smooth;
+}
+
+#header {
+    background-color: darkblue;
+}
+
 #about {
     font-family: 'Arial Narrow';
     text-align: left;
     min-height: 20px;
     padding: 5px;
-    background-image: url("./assets/images/background.jpg");
+    background-image: url("/assets/images/background.jpg");
 }
 
 #contact {
-    font-family: Cambria;
     text-align: center;
     font-family: serif;
     min-height: 20px;
