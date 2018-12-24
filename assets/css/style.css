@@ -1,0 +1,57 @@
+/* Navigtion bar */
+.nav-wrapper {
+    background-color: whitesmoke;
+}
+
+.navimg {
+    height: 55px;
+    padding-top: 10px;
+}
+
+#navlogo {
+    height: 60px;
+    margin-left: 15px;
+}
+
+/* Carousel */
+#introcard {
+    text-align: left;
+    opacity: .9;
+    background-color: #0F75BC;
+}
+
+.carouselText {
+    font-family: Helvetica, sans-serif;
+    color: white;
+}
+
+/* General */
+.sectionHeading {
+    font-family: Helvetica, sans-serif;
+    font-size: 34px;
+    color: whitesmoke;
+    text-shadow: 10px;
+    background-color: #0F75BC;
+    padding-left: 10px;
+}
+
+/* Skills */
+.logoskill {
+    height: 64px;
+}
+
+/* Education section */
+.credlogo {
+    height: 64px;
+}
+
+.schoollogo {
+    font-size: 14px;
+}
+
+/* Portfolio */
+.card-title {
+    color: whitesmoke;
+    background-color: #0F75BC;
+    opacity: 0.9;
+}
